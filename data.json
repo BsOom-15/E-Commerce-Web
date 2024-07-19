@@ -1,0 +1,47 @@
+{
+    "users": [
+    {
+        "username": "johndoe",
+        "email": "john.doe@example.com",
+        "password": "hashedpassword1"
+    },
+    {
+        "username": "janesmith",
+        "email": "jane.smith@example.com",
+        "password": "hashedpassword2"
+    }
+    ],
+    "products": [
+    {
+        "name": "Product 1",
+        "description": "Description for Product 1",
+        "price": 29.99,
+        "category": "category1Id",
+        "image": "product1.jpg"
+    },
+    {
+        "name": "Product 2",
+        "description": "Description for Product 2",
+        "price": 49.99,
+        "category": "category2Id",
+        "image": "product2.jpg"
+    }
+    ],
+    "orders": [
+    {
+        "userId": "user1Id",
+        "products": [
+        {
+            "productId": "product1Id",
+            "quantity": 2
+        },
+        {
+            "productId": "product2Id",
+            "quantity": 1
+        }
+        ],
+        "totalPrice": 109.97,
+        "status": "Pending"
+    }
+    ]
+}
